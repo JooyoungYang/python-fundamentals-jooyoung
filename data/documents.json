@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "title": "Intro to Data",
+    "published": true,
+    "tags": ["data", "intro"],
+    "metadata": {"author": "Alice", "pages": 10},
+    "ratings": [5, 4, 5]
+  },
+  {
+    "id": 2,
+    "title": "Advanced Parsing",
+    "published": false,
+    "tags": [],
+    "metadata": {"author": "Bob"},
+    "ratings": []
+  },
+  {
+    "id": 3,
+    "title": "Untitled",
+    "published": true
+  },
+  {
+    "id": 4,
+    "title": "Pydantic Guide",
+    "published": true,
+    "tags": ["pydantic", "typing"],
+    "metadata": {"author": "Carol", "edition": 2}
+  },
+  {
+    "id": 5,
+    "title": "JSON vs CSV",
+    "published": false,
+    "metadata": {"author": "Dave", "notes": {"compare": true}},
+    "ratings": [3, 4]
+  },
+  {
+    "id": 6,
+    "title": "Pipelines",
+    "published": true,
+    "tags": ["etl", "pipeline"]
+  },
+  {
+    "id": 7,
+    "title": "Testing 101",
+    "published": true,
+    "ratings": [4]
+  },
+  {
+    "id": 8,
+    "title": "Type Safety",
+    "published": true,
+    "tags": ["mypy", "ruff", "pre-commit"],
+    "metadata": {"author": "Eve", "difficulty": "medium"}
+  },
+  {
+    "id": 9,
+    "title": "Empty Optional Fields",
+    "published": false,
+    "tags": null,
+    "metadata": null,
+    "ratings": null
+  },
+  {
+    "id": 10,
+    "title": "Edge Cases",
+    "published": true,
+    "metadata": {"author": "Frank", "pages": 0, "extras": [1, "two", false]}
+  }
+]

@@ -1,13 +1,9 @@
-import argparse
-import utils
+from src import utils
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--ages", type=str, help="Comma separated ages")
-    args = parser.parse_args()
 
-    ages = [int(x) for x in args.ages.split(",")]
+def main() -> None:
     title = "Age Group Analyzer"
+    ages = [15, 22, 35]
     people_count = len(ages)
     info = {"title": title, "count": people_count}
     print(info)
@@ -42,6 +38,7 @@ def main():
         print("Older (from string)")
 
     print("Age after 5 years:", utils.add_years(22, 5))
+
 
 if __name__ == "__main__":
     main()
