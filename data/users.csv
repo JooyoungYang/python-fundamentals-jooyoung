@@ -1,0 +1,4 @@
+name,age,active,salary
+Alice,25,True,50000
+Bob,30,True,NULL
+Charlie,NULL,False,75000

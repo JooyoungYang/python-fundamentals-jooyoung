@@ -1,0 +1,14 @@
+# pip install pyyaml-env-tag
+
+database:
+  host: localhost
+  port: 5432
+  credentials:
+    username: data_engineer
+    password: !ENV ${DB_PASSWORD}
+
+processing:
+  batch_size: 1000
+  parallel_workers: 4
+  output_formats: [json, parquet]  #comment possible
+

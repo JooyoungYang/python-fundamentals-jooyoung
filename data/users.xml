@@ -1,0 +1,13 @@
+<users>
+  <user id="1" active="true">
+    <name>Alice Schmidt</name>
+    <email>alice@example.com</email>
+    <preferences>
+      <language>de</language>
+    </preferences>
+  </user>
+  <user id="2" active="false">
+    <name>Bob</name>
+    <email>bob@example.com</email>
+  </user>
+</users>
