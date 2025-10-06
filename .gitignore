@@ -1,4 +1,15 @@
+# virtual env
 .venv/
+venv/
+
+# caches
 __pycache__/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
 *.pyc
+
+# editor/OS junk
+.vscode/
+Thumbs.db
 .DS_Store

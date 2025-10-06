@@ -1,0 +1,4 @@
+name,age,active,salary,signup_date
+Alice,25.0,True,50000.0,2025-09-28
+Bob,30.0,True,,30/09/2025
+Charlie,,False,75000.0,2025.10.01
