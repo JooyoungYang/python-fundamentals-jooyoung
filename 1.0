@@ -1,0 +1,14 @@
+Collecting SQLAlchemy
+  Downloading sqlalchemy-2.0.44-cp311-cp311-win_amd64.whl (2.1 MB)
+     ---------------------------------------- 2.1/2.1 MB 2.5 MB/s eta 0:00:00
+Collecting pymysql
+  Downloading pymysql-1.1.2-py3-none-any.whl (45 kB)
+     ---------------------------------------- 45.3/45.3 kB 1.1 MB/s eta 0:00:00
+Collecting python-dotenv
+  Downloading python_dotenv-1.1.1-py3-none-any.whl (20 kB)
+Collecting greenlet>=1
+  Downloading greenlet-3.2.4-cp311-cp311-win_amd64.whl (299 kB)
+     -------------------------------------- 299.1/299.1 kB 2.7 MB/s eta 0:00:00
+Requirement already satisfied: typing-extensions>=4.6.0 in c:\users\yjyou\onedrive\¹®¼­\adom\adom_steam\python_programming_jy\.venv\lib\site-packages (from SQLAlchemy) (4.15.0)
+Installing collected packages: python-dotenv, pymysql, greenlet, SQLAlchemy
+Successfully installed SQLAlchemy-2.0.44 greenlet-3.2.4 pymysql-1.1.2 python-dotenv-1.1.1
