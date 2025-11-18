@@ -1,0 +1,4 @@
+title,summary,file_path,arxiv_id,author_full_name,author_title
+"Non-Parametric Reconstruction of the Hubble Parameter from the Fourth Gravitational Wave Transient Catalog and DESI Baryonic Acoustic Oscillations","Non-parametric reconstruction of the Hubble parameter using GWTC-4.0 and BAO measurements.","papers/hubble_parameter.pdf","2511.11795","Grégoire Pierra","PhD"
+"Inflation without an Inflaton II: observational predictions","Observational predictions for inflation driven by a pure de Sitter background without a fundamental inflaton field.","papers/inflation.pdf","2511.11808","Marisol Traforetti","Dr."
+"SourceREACH: A New Source Reconstruction Algorithm Optimized for Giant Arcs and Galaxy Cluster Lenses","A new source reconstruction algorithm optimized for giant arcs lensed by galaxy clusters, using KNN-based regression.","papers/source_reach.pdf","2511.11952","Lana Eid","PhD"

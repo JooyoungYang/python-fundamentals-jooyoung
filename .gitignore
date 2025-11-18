@@ -13,3 +13,8 @@ __pycache__/
 .vscode/
 Thumbs.db
 .DS_Store
+
+# MongoDB data and logs
+mongoDB/data/
+*.log
+*.lock
