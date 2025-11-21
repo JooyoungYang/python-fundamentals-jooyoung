@@ -5,8 +5,8 @@ from pathlib import Path
 
 from sqlalchemy.exc import IntegrityError
 
-from src.models.sql_models import Author, ScientificArticle
-from src.storage.mariadb import get_session, init_db
+from ..models.sql_models import Author, ScientificArticle
+from ..storage.mariadb import get_session, init_db
 
 
 def save_article(line: dict[str, str]) -> ScientificArticle | None:

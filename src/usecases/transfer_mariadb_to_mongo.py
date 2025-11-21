@@ -5,10 +5,10 @@ from mongoengine import DoesNotExist
 from sqlalchemy import select
 from sqlalchemy.orm import Session, selectinload
 
-from src.models.mongo_models import AuthorEmbedded, ScientificArticleDocument
-from src.models.sql_models import ScientificArticle
-from src.storage.mariadb import get_session
-from src.storage.mongodb import init_mongo
+from ..models.mongo_models import AuthorEmbedded, ScientificArticleDocument
+from ..models.sql_models import ScientificArticle
+from ..storage.mariadb import get_session
+from ..storage.mongodb import init_mongo
 
 
 def save_article(article: ScientificArticle) -> ScientificArticleDocument | None:
