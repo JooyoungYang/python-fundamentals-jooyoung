@@ -18,3 +18,18 @@ Thumbs.db
 mongoDB/data/
 *.log
 *.lock
+
+# Local database files (MariaDB / SQLite 등)
+db/
+!db/init.sql
+mariadb_data/
+qdrant_storage/
+data/*.parquet
+data/*.csv
+data/*.json
+data/*.xml
+papers/*.pdf
+
+*.db
+*.sqlite
+*.sqlite3
