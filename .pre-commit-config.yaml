@@ -15,3 +15,4 @@ repos:
           - pydantic>=2
           - types-PyYAML
           - types-requests
+          - sqlalchemy
